@@ -6263,7 +6263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet1: {fileID: 4667581927934233767, guid: 1cae33d9c77c1f748a6ec871ba7e7093, type: 3}
   bullet2: {fileID: 7510317147674625437, guid: f01581b10c070cf4d869621f851c11cd, type: 3}
-  bulletSpeed: 10
+  bulletSpeed: 15
   spawnPoint: {fileID: 392672072}
 --- !u!1001 &789962197
 PrefabInstance:
@@ -8027,7 +8027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb2e53e9117cbd4fa683c100231c01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 500
+  mouseSensitivity: 100
   playerBody: {fileID: 2025841276}
   xRotation: 0
 --- !u!114 &963194230
@@ -15410,7 +15410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1923161638}
   m_Layer: 0
-  m_Name: enviranment
+  m_Name: environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

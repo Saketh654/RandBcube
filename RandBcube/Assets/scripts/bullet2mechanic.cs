@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bullet2mechanic : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class bullet2mechanic : MonoBehaviour
         if(other.gameObject.tag == "enemy1")
         {
             Destroy(other.gameObject);
+        }
+        if(other.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene(2);
         }
     }
 }
